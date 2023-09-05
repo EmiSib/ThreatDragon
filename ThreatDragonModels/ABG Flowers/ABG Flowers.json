@@ -38,8 +38,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "07f32de4-19d2-429a-8dfb-fe9465a05984",
             "zIndex": 1,
+            "id": "07f32de4-19d2-429a-8dfb-fe9465a05984",
             "data": {
               "type": "tm.Actor",
               "name": "Web Browser",
@@ -72,8 +72,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "c67e8f7e-9527-4742-b3c9-7c3dd4aa1cd4",
             "zIndex": 2,
+            "id": "c67e8f7e-9527-4742-b3c9-7c3dd4aa1cd4",
             "data": {
               "type": "tm.Process",
               "name": "ABG Flowers\nWeb App",
@@ -184,6 +184,9 @@
               "threats": []
             },
             "id": "1a8a8795-ba2e-43a7-8b38-c5591be7163b",
+            "labels": [
+              "Web response"
+            ],
             "source": {
               "cell": "c67e8f7e-9527-4742-b3c9-7c3dd4aa1cd4"
             },
@@ -204,9 +207,6 @@
                 "x": 380,
                 "y": -70
               }
-            ],
-            "labels": [
-              "Web response"
             ]
           },
           {
@@ -238,6 +238,9 @@
               "threats": []
             },
             "id": "1c1a8485-a1c3-4859-ab10-fe8aeff2568b",
+            "labels": [
+              "Redirect and pay"
+            ],
             "source": {
               "cell": "c67e8f7e-9527-4742-b3c9-7c3dd4aa1cd4"
             },
@@ -253,9 +256,6 @@
                 "x": 390,
                 "y": 290
               }
-            ],
-            "labels": [
-              "Redirect and pay"
             ]
           },
           {
@@ -287,6 +287,9 @@
               "threats": []
             },
             "id": "863548ab-b3d3-4c0f-a5e4-9162a5813151",
+            "labels": [
+              "Return data"
+            ],
             "source": {
               "cell": "e68053b2-a786-4463-b54a-4cb3c2b0b6f2"
             },
@@ -302,9 +305,6 @@
                 "x": 490,
                 "y": 210
               }
-            ],
-            "labels": [
-              "Return data"
             ]
           },
           {
@@ -336,6 +336,9 @@
               "threats": []
             },
             "id": "68366049-1c54-441a-a9ab-3c690b5628a0",
+            "labels": [
+              "Web request"
+            ],
             "source": {
               "cell": "07f32de4-19d2-429a-8dfb-fe9465a05984"
             },
@@ -359,9 +362,6 @@
                 "x": 300,
                 "y": 80
               }
-            ],
-            "labels": [
-              "Web request"
             ]
           },
           {
@@ -393,6 +393,9 @@
               "threats": []
             },
             "id": "d671ce77-2db9-4b73-b9ef-896ea84e9745",
+            "labels": [
+              "Query result"
+            ],
             "source": {
               "cell": "ff2e46f7-d7d7-4d71-82e6-2c741dd085e1"
             },
@@ -404,9 +407,6 @@
                 "x": 580,
                 "y": 86
               }
-            ],
-            "labels": [
-              "Query result"
             ]
           },
           {
@@ -438,6 +438,9 @@
               "threats": []
             },
             "id": "f9cedb5c-0651-4645-b28a-7e10dc1d346e",
+            "labels": [
+              "Management"
+            ],
             "source": {
               "cell": "e69b84d5-8a8a-4651-b3e5-f1db923fcce8"
             },
@@ -449,9 +452,6 @@
                 "x": 500,
                 "y": -30
               }
-            ],
-            "labels": [
-              "Management"
             ]
           },
           {
@@ -483,6 +483,9 @@
               "threats": []
             },
             "id": "229d4c52-a850-4653-bc2d-3d6529ca3db6",
+            "labels": [
+              "Queries"
+            ],
             "source": {
               "cell": "c67e8f7e-9527-4742-b3c9-7c3dd4aa1cd4"
             },
@@ -494,9 +497,6 @@
                 "x": 620,
                 "y": 170
               }
-            ],
-            "labels": [
-              "Queries"
             ]
           },
           {
@@ -688,8 +688,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "e69b84d5-8a8a-4651-b3e5-f1db923fcce8",
             "zIndex": 12,
+            "id": "e69b84d5-8a8a-4651-b3e5-f1db923fcce8",
             "data": {
               "type": "tm.Actor",
               "name": "ABG Computer",
@@ -736,8 +736,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "e68053b2-a786-4463-b54a-4cb3c2b0b6f2",
             "zIndex": 13,
+            "id": "e68053b2-a786-4463-b54a-4cb3c2b0b6f2",
             "data": {
               "type": "tm.Actor",
               "name": "Payments",
@@ -765,7 +765,7 @@
           },
           {
             "position": {
-              "x": 70,
+              "x": 110,
               "y": 180
             },
             "size": {
@@ -779,8 +779,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "b72f85d9-da98-4463-9d82-3090388dbafb",
             "zIndex": 14,
+            "id": "b72f85d9-da98-4463-9d82-3090388dbafb",
             "data": {
               "type": "tm.Text",
               "name": "Threats:\n\n- DoS / DDoS\n- SQL Injection\n- Insider threat\n- Phishing\n- Malware\n- Zero day\n",
